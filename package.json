@@ -1,0 +1,24 @@
+{
+  "name": "aviasales",
+  "version": "1.0.0",
+  "description": "Test task project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sokolero/aviasales.git"
+  },
+  "author": "Roman Sokolenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sokolero/aviasales/issues"
+  },
+  "homepage": "https://github.com/Sokolero/aviasales#readme",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5"
+  }
+}

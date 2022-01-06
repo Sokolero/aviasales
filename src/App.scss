@@ -1,0 +1,56 @@
+// --- Colors --------
+$wrapper-color: #F3F7FA;
+$component-color: #fff;
+$primary-content: #4A4A4A;
+$secondary-content: #A0B0B9;
+$primary-500: #2196F3;
+
+$filter-checkbox-default: #9ABBCE;
+$filter-bg-hover: #F1FCFF;
+
+// --- Fonts ----------
+@fontface {
+  font-family: OpenSans;
+  src: url(fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
+}
+
+@fontface {
+  font-family: OpenSans;
+  src: url(fonts/OpenSans-SemiBold.ttf);
+  font-weight: 600;
+}
+
+// ---- Normalize.css -------------------
+@import url(normalize.css);
+@import "components";
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+html {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: OpenSans, sans-serif;
+  color: $primary-content;
+}
+
+.wrapper {
+  background-color: $wrapper-color;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 754px;
+  text-align: center;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: 232px 1fr;
+  grid-gap: 20px;
+}
